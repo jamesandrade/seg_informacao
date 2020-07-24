@@ -8,7 +8,7 @@ i = 1
 y = []
 tempos = []
 while i < 30:
-	r = pyping.ping('baidu.com')
+	r = pyping.ping('google.com')
 	y.append(r.avg_rtt)
 	tempos.append((datetime.datetime.now()).strftime('%M:%S'))
 	print(i)
